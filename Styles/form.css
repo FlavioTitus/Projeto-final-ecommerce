@@ -1,0 +1,74 @@
+:root {
+  --main-bg-color: rgb(4, 16, 5);
+  --main-font-color: #03f7fc;
+  --secundary-font-color: #53e1b7;
+  --dar-green: #013c3d;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-container{
+  background: url("/Medias/pc-gamer.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding: 40px 0;
+}
+
+.contact-container h1{
+  text-align: center;
+  color: #fff;
+}
+
+.border{
+  width: 100px;
+  height: 10px;
+  background: var(--secundary-font-color);
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-field{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  background: var(--main-bg-color);
+  padding: 20px 40px;
+  outline: none;
+  color: var(--main-font-color);
+  transition: 0.5s;
+}
+
+.contact-form-field:focus{
+  box-shadow: 0 0 5px 2px var(--secundary-font-color);
+}
+
+textarea.contact-form-field{
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-btn{
+  background: var(--main-bg-color);
+  color: var(--secundary-font-color);
+  float: right;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+  background-color: black;
+  color: var(--main-font-color);
+  box-shadow: 0 0 5px 2px var(--secundary-font-color);
+}
